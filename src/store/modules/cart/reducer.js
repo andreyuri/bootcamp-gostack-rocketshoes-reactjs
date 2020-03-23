@@ -15,6 +15,10 @@ function cart(state = [], action) {
           });
         }
       });
+    case 'REMOVE_FROM_CART':
+      return produce(state, draft =>
+        draft.filter(product => product.id !== action.id)
+      );
     default:
       return state;
   }
