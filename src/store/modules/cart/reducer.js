@@ -16,9 +16,21 @@ function cart(state = [], action) {
         }
       });
     case '@cart/REMOVE':
-      return produce(state, draft =>
-        draft.filter(product => product.id !== action.id)
-      );
+      return produce(state, draft => draft.filter(p => p.id !== action.id));
+    case '@cart/UPDATE_AMOUNT': {
+      if (action.amount <= 0) {
+        return state;
+      }
+
+      return produce(state, draft => {
+        const productIndex = draft.findIndex(p => p.id === action.id);
+
+        if (productIndex >= 0) {
+          draft[productIndex].amount = Number(action.amount);
+        }
+      });
+    }
+
     default:
       return state;
   }
