@@ -1,6 +1,6 @@
 ## Projeto
 
-Projeto do front de um e-commerce de calçados utilizando ReactJS.<br />
+Front de um e-commerce de calçados utilizando ReactJS.<br />
 
 Home<br />
 <img src=".github/home.png" height="300">
