@@ -1,3 +1,7 @@
+## Projeto
+
+Projeto do front de um e-commerce de calçados utilizando ReactJS.
+
 ## Como instalar
 
 Esse projeto utiliza o json-server.
@@ -17,10 +21,10 @@ Abra [http://localhost:3000](http://localhost:3000) para ver no navegador.
 
 ## Interface
 
-### `Home`
+Home
 
 <img src=".github/home.png" height="200">
 
-### `Cart`
+Cart
 
 <img src=".github/cart.png" height="200">
