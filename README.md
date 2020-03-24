@@ -4,10 +4,10 @@ Projeto do front de um e-commerce de calçados utilizando ReactJS.
 
 ## Interface
 
-Home
+Home<br />
 <img src=".github/home.png" height="200">
 
-Cart
+Cart<br />
 <img src=".github/cart.png" height="200">
 
 ## Como instalar
