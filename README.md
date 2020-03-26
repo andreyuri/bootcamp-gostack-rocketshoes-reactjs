@@ -10,17 +10,15 @@ Cart<br />
 
 ## Como instalar
 
-Esse projeto utiliza o json-server.
+Baixe as dependências do projeto:
+### `yarn`
 
+Esse projeto utiliza o json-server, instale globalmente:
 ### `npm -g install json-server`
 
-Instale o json-server globalmente.
-
+Rode o json-server na porta 3333:
 ### `json-server server.json -p 3333`
-
-Rode o json-server na porta 3333.
-
-### `yarn start`
 
 Rode o aplicativo em modo de desenvolvimento<br />
 Abra [http://localhost:3000](http://localhost:3000) para ver no navegador.
+### `yarn start`
